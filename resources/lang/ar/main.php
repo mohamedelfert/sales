@@ -4,6 +4,7 @@ return [
 
     'dashboard' => 'الرئيسية',
     'welcome' => 'مرحبا بك !',
+    'website' => 'الموقع',
     'logout' => 'تسجيل الخروج',
     'login' => 'تسجيل الدخول',
     'arabic' => 'عربي',

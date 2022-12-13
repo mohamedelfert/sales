@@ -61,6 +61,14 @@
                     </a>
                 </li>
             @endcan
+
+            <li class="side-item side-item-category">@lang('main.website')</li>
+            <li class="slide">
+                <a class="side-menu__item" href="{{ url('/') }}" target="_blank">
+                    <i class="side-menu__icon fa fa-cogs"></i>
+                    <span class="side-menu__label">@lang('main.website')</span>
+                </a>
+            </li>
         </ul>
     </div>
 </aside>
