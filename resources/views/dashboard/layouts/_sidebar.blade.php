@@ -28,7 +28,7 @@
             <li class="slide">
                 <a class="side-menu__item" href="{{ route('dashboard.index') }}">
                     <i class="side-menu__icon fa fa-home"></i>
-                    <span class="side-menu__label">@lang('main.dashboard')</span>
+                    <span class="side-menu__label mt-3">@lang('main.dashboard')</span>
                 </a>
             </li>
 
@@ -38,7 +38,7 @@
                     <li class="slide">
                     <a class="side-menu__item" href="{{ route('dashboard.users.index') }}">
                         <i class="side-menu__icon fa fa-users"></i>
-                        <span class="side-menu__label">@lang('main.users')</span>
+                        <span class="side-menu__label mt-3">@lang('main.users')</span>
                     </a>
                 </li>
                 @endcan
@@ -46,7 +46,7 @@
                     <li class="slide">
                     <a class="side-menu__item" href="{{ route('dashboard.roles.index') }}">
                         <i class="side-menu__icon fa fa-shield-alt"></i>
-                        <span class="side-menu__label">@lang('main.roles')</span>
+                        <span class="side-menu__label mt-3">@lang('main.roles')</span>
                     </a>
                 </li>
                 @endcan
@@ -57,7 +57,7 @@
                 <li class="slide">
                     <a class="side-menu__item" href="{{ route('dashboard.settings.index') }}">
                         <i class="side-menu__icon fa fa-cogs"></i>
-                        <span class="side-menu__label">@lang('main.settings')</span>
+                        <span class="side-menu__label mt-3">@lang('main.settings')</span>
                     </a>
                 </li>
             @endcan
@@ -65,8 +65,8 @@
             <li class="side-item side-item-category">@lang('main.website')</li>
             <li class="slide">
                 <a class="side-menu__item" href="{{ url('/') }}" target="_blank">
-                    <i class="side-menu__icon fa fa-cogs"></i>
-                    <span class="side-menu__label">@lang('main.website')</span>
+                    <i class="side-menu__icon fe fe-chrome"></i>
+                    <span class="side-menu__label mt-3">@lang('main.website')</span>
                 </a>
             </li>
         </ul>

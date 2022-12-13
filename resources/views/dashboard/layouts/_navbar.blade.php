@@ -50,14 +50,14 @@
                     <div class="dropdown-menu">
                         <div class="main-message-list chat-scroll">
                             <a href="{{ LaravelLocalization::getLocalizedURL('ar') }}" class="dropdown-item d-flex ">
-                                <span class="avatar  ml-3 align-self-center bg-transparent"><img
+                                <span class="avatar ml-3 align-self-center bg-transparent"><img
                                         src="{{URL::asset('dashboard/img/flags/EG.png')}}" alt="img"></span>
                                 <div class="d-flex">
                                     <span class="mt-2">@lang('main.arabic')</span>
                                 </div>
                             </a>
                             <a href="{{ LaravelLocalization::getLocalizedURL('en') }}" class="dropdown-item d-flex ">
-                                <span class="avatar  ml-3 align-self-center bg-transparent"><img
+                                <span class="avatar ml-3 align-self-center bg-transparent"><img
                                         src="{{URL::asset('dashboard/img/flags/US.png')}}" alt="img"></span>
                                 <div class="d-flex">
                                     <span class="mt-2">@lang('main.english')</span>
