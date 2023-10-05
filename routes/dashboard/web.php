@@ -23,22 +23,28 @@ Route::group(
         /**************************** Settings *******************************/
         Route::resource('settings', 'SettingController');
 
-        Route::get('/{page}', function ($id) {
-            if (view()->exists($id)) {
-                return view($id);
-            } else {
-                return view('404');
-            }
-        });
+//        Route::get('/{page}', function ($id) {
+//            if (view()->exists($id)) {
+//                return view($id);
+//            } else {
+//                return view('404');
+//            }
+//        });
 
+    });
+
+    Route::get('/{page}', 'DashboardController@index');
+
+    Route::fallback(function (){
+        return view('404');
     });
 
 });
 
-Route::get('/{page}', function ($id) {
-    if (view()->exists($id)) {
-        return view($id);
-    } else {
-        return view('404');
-    }
-});
+//Route::get('/{page}', function ($id) {
+//    if (view()->exists($id)) {
+//        return view($id);
+//    } else {
+//        return view('404');
+//    }
+//});

@@ -19,6 +19,8 @@ class SettingsTableSeeder extends Seeder
         $data['logo'] = 'logo.jpg';
         $data['icon'] = 'icon.jpg';
         $data['email'] = 'info@app.com';
+        $data['phone'] = '01153225410';
+        $data['address'] = 'Cairo,Egypt';
         $data['main_lang'] = 'arabic';
         $data['description'] = 'Description Here';
         $data['keywords'] = 'dashboard,dash';

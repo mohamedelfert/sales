@@ -182,7 +182,15 @@
                                     <img alt="" src="{{ auth()->user()->image_path }}" class=""></div>
                                 <div class="mr-3 my-auto">
                                     <h6>{{ auth()->user()->first_name }} {{ auth()->user()->last_name }}</h6>
-                                    <span>{{ auth()->user()->role_name }}</span>
+                                    <span>
+                                        @if (auth()->user()->role_name == 'super_admin')
+                                            @lang('main.super_admin')
+                                        @elseif(auth()->user()->role_name == 'admin')
+                                            @lang('main.admin')
+                                        @elseif(auth()->user()->role_name == 'user')
+                                            @lang('main.user')
+                                        @endif
+                                    </span>
                                 </div>
                             </div>
                         </div>

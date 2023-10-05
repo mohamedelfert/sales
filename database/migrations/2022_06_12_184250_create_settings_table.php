@@ -20,6 +20,8 @@ class CreateSettingsTable extends Migration
             $table->string('logo')->default('logo.jpg');
             $table->string('icon')->default('icon.jpg');
             $table->string('email')->default('info@app.com');
+            $table->string('phone')->default('01153225410');
+            $table->string('address')->default('Cairo,Egypt');
             $table->string('main_lang')->default('arabic');
             $table->longtext('description')->nullable();
             $table->longtext('keywords')->nullable();

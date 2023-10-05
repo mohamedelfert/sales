@@ -23,6 +23,8 @@ class SettingController extends Controller
             'site_name_ar' => 'required',
             'site_name_en' => 'required',
             'email' => 'required|email',
+            'phone' => 'required|digits:11',
+            'address' => 'required',
             'logo' => 'sometimes|nullable|image|mimes:png,jpg,jpeg,gif',
             'icon' => 'sometimes|nullable|image|mimes:png,jpg,jpeg,gif',
             'main_lang' => 'required|in:arabic,english',

@@ -27,6 +27,8 @@ return [
     'first_name' => 'First Name',
     'last_name' => 'Last Name',
     'email' => 'E-mail',
+    'phone' => 'Phone',
+    'address' => 'Address',
     'password' => 'Password',
     'password_confirmation' => 'Password Confirm',
     'status' => 'Status',

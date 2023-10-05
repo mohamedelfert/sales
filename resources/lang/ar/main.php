@@ -27,6 +27,8 @@ return [
     'first_name' => 'الاسم الأول',
     'last_name' => 'الاسم الأخير',
     'email' => 'البريد الإلكتروني',
+    'phone' => 'رقم الهاتف',
+    'address' => 'العنوان',
     'password' => 'كلمة المرور',
     'password_confirmation' => 'تأكيد كلمة المرور',
     'status' => 'الحالة',
